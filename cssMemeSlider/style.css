@@ -10,6 +10,7 @@ body {
     background-color: rgb(87, 69, 69);
 }
 .slider {
+    display: flex;
     background-color: black;
     width: 95%;
     margin-top: 2em;
