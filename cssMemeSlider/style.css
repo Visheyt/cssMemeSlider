@@ -1,0 +1,51 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+body {
+    max-width: 64em;
+    margin: 0 auto;
+    background-color: rgb(87, 69, 69);
+}
+.slider {
+    background-color: black;
+    width: 95%;
+    margin-top: 2em;
+    height: 35em;
+}
+.text-controlls {
+    max-width: 95%;
+    margin-right: auto;
+    margin-top: 2.5em;
+    justify-content: space-between;
+    display: flex;
+}
+.text {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 10em;
+    height: 1.25em;
+    color: white;
+    
+}
+
+.controlls {
+    justify-content: space-around;
+    display: flex;
+    width: 5em;
+    height: 1.25em;
+
+    
+}
+.controlls input:hover {
+    background-color: red;
+}
+.controlls input {
+    cursor: pointer;
+}
+.controlls input:checked ~.text p:nth-child(1) {
+    color : red;
+
+}
