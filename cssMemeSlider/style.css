@@ -13,6 +13,7 @@ body {
 .slider {
     box-shadow: 0.2rem 0.2rem  0.5rem 0.2rem rgb(36, 17, 17);
     border-radius: 2.6rem;
+    transition: all 0.5s ease;
     height: 50rem;
     background-color: gray;
     justify-content: center;
@@ -82,62 +83,101 @@ body {
 }
 .controll4 {
     transition: background-color 1s;
-    border: 0.2rem solid   white;
     margin-left: 10px;
-    display: block;
-    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
-    accent-color: black;
-}
-.controll4:hover {
-    background-color: rgb(172, 146, 146)
 }
 
-.controll3 {
-    transition: background-color 1s;
+.controll4 span {
+    transition: all 1s ease;
     border: 0.2rem solid   white;
-    margin-left: 10px;
-    display: block;
     border-radius: 50%;
-    background-color: white;
+    display: block;
     width: 0.5rem;
     height: 0.5rem;
+    background-color: white;
+}
+.controll4 span:hover {
+    border-color: rgb(57, 57, 104);
+}
+.controll3 {
+    
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
 }
-.controll3:hover {
-    background-color: rgb(172, 146, 146)
+
+.controll3 span {
+    transition: all 1s ease;
+    border: 0.2rem solid   white;
+    border-radius: 50%;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+}
+.controll3 span:hover {
+    border-color: rgb(57, 57, 104);
 }
 .controll2 {
     transition: background-color 1s;
-    border: 0.2rem solid   white;
     margin-left: 10px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    background-color: white;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
 }
-.controll2:hover {
-    background-color: rgb(172, 146, 146)
+
+.controll2 span {
+    transition: all 1s ease;
+    border: 0.2rem solid   white;
+    border-radius: 50%;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+}
+.controll2 span:hover {
+    border-color: rgb(57, 57, 104);
 }
 .controll1 {
     transition: background-color 1s;
-    border: 0.2rem solid   white;
     margin-left: 10px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    background-color: white;
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
 }
-.controll1:hover {
-    background-color: rgb(172, 146, 146)
+
+.controll1 span {
+    transition: all 1s ease;
+    border: 0.2rem solid   white;
+    border-radius: 50%;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
 }
+.controll1 span:hover {
+    border-color: rgb(57, 57, 104);
+}
+
 #controll3 {
     margin-top: -1.15rem;
     margin-right:8rem;
@@ -192,16 +232,16 @@ p {
 
 }
 /*Стилизация лейблов*/
-#controll1:checked ~ .controlls .controll1 {
+#controll1:checked ~ .controlls .controll1 span {
    background-color: black;
 }
-#controll2:checked ~ .controlls .controll2 {
+#controll2:checked ~ .controlls .controll2 span{
     background-color: black;
  }
-#controll3:checked ~ .controlls .controll3 {
+#controll3:checked ~ .controlls .controll3 span{
     background-color: black;
  }
-#controll4:checked ~ .controlls .controll4 {
+#controll4:checked ~ .controlls .controll4 span{
     background-color: black;
  }
 
@@ -363,12 +403,11 @@ p {
     }    
     .controlls {
         margin-right: 0rem;
-        margin-top: -3rem;
+        margin-top: -5rem;
         align-self: center;
     }
     .textslides {
-
-        margin-top: 3.25rem;
+        margin-top: 4.25rem;
     }
     .textslider {
         overflow: hidden;
@@ -396,7 +435,7 @@ p {
     }
     .slider {
         max-width: 22rem;
-        height: 22rem;
+        height: 25rem;
         
     }
     .img1 {
@@ -413,7 +452,7 @@ p {
     }    
     .controlls {
         margin-right: 0rem;
-        margin-top: -3rem;
+        margin-top: -3.3rem;
         align-self: center;
     }
     .textslides {
