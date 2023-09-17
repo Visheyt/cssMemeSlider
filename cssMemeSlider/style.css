@@ -38,34 +38,34 @@ body {
 }
 .img1 {
     box-shadow:
-    0 1px 4px rgba(0, 0, 0, .3),
-    -23px 0 20px -23px rgba(0, 0, 0, .8),
-    23px 0 20px -23px rgba(0, 0, 0, .8),
-    0 0 40px rgba(0, 0, 0, .1) inset;
+    0 0.0625rem 0.25rem rgba(0, 0, 0, .3),
+    -1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    0 0 2.5rem rgba(0, 0, 0, .1) inset;
     margin-left: 5rem;
 }
 .img2 {
     box-shadow:
-    0 1px 4px rgba(0, 0, 0, .3),
-    -23px 0 20px -23px rgba(0, 0, 0, .8),
-    23px 0 20px -23px rgba(0, 0, 0, .8),
-    0 0 40px rgba(0, 0, 0, .1) inset;
+    0 0.0625rem 0.25rem rgba(0, 0, 0, .3),
+    -1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    0 0 2.5rem rgba(0, 0, 0, .1) inset;
     margin-left: 1rem;
 }
 .img3 {
     box-shadow:
-    0 1px 4px rgba(0, 0, 0, .3),
-    -23px 0 20px -23px rgba(0, 0, 0, .8),
-    23px 0 20px -23px rgba(0, 0, 0, .8),
-    0 0 40px rgba(0, 0, 0, .1) inset;
+    0 0.0625rem 0.25rem rgba(0, 0, 0, .3),
+    -1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    0 0 2.5rem rgba(0, 0, 0, .1) inset;
     margin-left: 1.25rem;
 }
 .img4 {
     box-shadow:
-    0 1px 4px rgba(0, 0, 0, .3),
-    -23px 0 20px -23px rgba(0, 0, 0, .8),
-    23px 0 20px -23px rgba(0, 0, 0, .8),
-    0 0 40px rgba(0, 0, 0, .1) inset;
+    0 0.0625rem 0.25rem rgba(0, 0, 0, .3),
+    -1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    1.4375rem 0 1.25rem -1.4375rem rgba(0, 0, 0, .8),
+    0 0 2.5rem rgba(0, 0, 0, .1) inset;
     margin-left: 2rem;
 }
 #controll4 {
@@ -77,13 +77,13 @@ body {
     /*margin-left: 40.3125rem;*/
     align-self: flex-end;
     margin-right: 4.9rem;
-    margin-top: -1.25rem;
+    margin-top: -1.8rem;
     display: flex;
     flex-direction: row;
 }
 .controll4 {
     transition: background-color 1s;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,8 +106,7 @@ body {
     border-color: rgb(57, 57, 104);
 }
 .controll3 {
-    
-    margin-left: 10px;
+    margin-left: 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +130,7 @@ body {
 }
 .controll2 {
     transition: background-color 1s;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,7 +154,7 @@ body {
 }
 .controll1 {
     transition: background-color 1s;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,8 +352,6 @@ p {
     }    
 }
 
-
-
 @media (max-width : 660px) {
     .slides img {
     max-width: 20em;
@@ -411,12 +408,12 @@ p {
     }
     .textslider {
         overflow: hidden;
-        margin-left: 2rem;
+        margin-left: 5.9rem;
         max-width: 4.7rem;
-        align-self: center;
+    
     }
     #controll1:checked ~ .textslider   {
-        margin-left: 2rem;
+        margin-left: 5.9rem;
     }
     #controll2:checked ~ .textslider .textslides {
        margin-left: -4.5rem;
@@ -425,7 +422,7 @@ p {
         margin-left: -9.5rem;
     }
     #controll4:checked ~ .textslider .textslides {
-        margin-left: -15.5rem;
+        margin-left: -15.8rem;
     }
 }
 @media (max-width : 500px) {
@@ -442,10 +439,10 @@ p {
         margin-left: 3.7rem;
     }
     .img2 {
-        margin-left: -2.5rem;
+        margin-left: -1.8rem;
     }
     .img3 {
-        margin-left: -2.4rem;
+        margin-left: -2.7rem;
     }   
     .img4 {
         margin-left: -2.5rem;
@@ -456,16 +453,16 @@ p {
         align-self: center;
     }
     .textslides {
-        margin-top: 2rem;
+        margin-top: 2.25rem;
     }
     .textslider {
         overflow: hidden;
-        margin-left: 2rem;
+        margin-left: 3.7rem;
         max-width: 4.7rem;
-        align-self: center;
+    
     }
     #controll1:checked ~ .textslider   {
-        margin-left: 2rem;
+        margin-left: 3.7rem;
     }
     #controll2:checked ~ .textslider .textslides {
        margin-left: -4.5rem;
@@ -474,6 +471,6 @@ p {
         margin-left: -9.5rem;
     }
     #controll4:checked ~ .textslider .textslides {
-        margin-left: -15.5rem;
+        margin-left: -16.5rem;
     }
 }
