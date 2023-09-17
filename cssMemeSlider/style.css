@@ -105,6 +105,9 @@ body {
 .controll4 span:hover {
     border-color: rgb(57, 57, 104);
 }
+.controll4 span:focus {
+    background-color: rgb(57, 57, 104);
+}
 .controll3 {
     margin-left: 0.625rem;
     display: flex;
@@ -124,6 +127,9 @@ body {
     width: 0.5rem;
     height: 0.5rem;
     background-color: white;
+}
+.controll3 span:focus {
+    background-color: rgb(57, 57, 104);
 }
 .controll3 span:hover {
     border-color: rgb(57, 57, 104);
@@ -149,6 +155,9 @@ body {
     height: 0.5rem;
     background-color: white;
 }
+.controll2 span:focus {
+    background-color: rgb(57, 57, 104);
+}
 .controll2 span:hover {
     border-color: rgb(57, 57, 104);
 }
@@ -172,6 +181,9 @@ body {
     width: 0.5rem;
     height: 0.5rem;
     background-color: white;
+}
+.controll1 span:focus {
+    background-color: rgb(57, 57, 104);
 }
 .controll1 span:hover {
     border-color: rgb(57, 57, 104);
